@@ -11,10 +11,21 @@ android {
         versionName "1.0B"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+    signingConfigs{
+        key{
+            keyAlias 'chaisync'
+            keyPassword 'chaisync'
+            storeFile file('C:/Users/Yan/Documents/GitHub/chai_sync.jks')
+            storePassword 'chaisync'
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug{
+            signingConfig signingConfigs.key
         }
     }
 }

@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Yan\\.android\\build-cache\\5d962f6e4c0263ae4409cc1cc543b301447ec0cf\\output\\res\\layout\\notification_action.xml"
     },
     {
-        "merged": "C:\\Users\\Yan\\Documents\\GitHub\\android-client-socketio-appB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\Yan\\.android\\build-cache\\5d962f6e4c0263ae4409cc1cc543b301447ec0cf\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
         "merged": "C:\\Users\\Yan\\Documents\\GitHub\\android-client-socketio-appB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\Yan\\.android\\build-cache\\5d962f6e4c0263ae4409cc1cc543b301447ec0cf\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yan\\Documents\\GitHub\\android-client-socketio-appB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Yan\\.android\\build-cache\\5d962f6e4c0263ae4409cc1cc543b301447ec0cf\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "C:\\Users\\Yan\\Documents\\GitHub\\android-client-socketio-appB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",

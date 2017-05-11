@@ -1,4 +1,4 @@
-#Mon May 08 22:40:09 PDT 2017
+#Wed May 10 21:36:31 PDT 2017
 file.2=C\:\\Users\\Yan\\Documents\\GitHub\\android-client-socketio-appB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\okio-1.11.0_851ff488478f80f1dc70b4986ed0e0574111d4f6\\classes.dex
 base.2=C\:\\Users\\Yan\\Documents\\GitHub\\android-client-socketio-appB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\okio-1.11.0_851ff488478f80f1dc70b4986ed0e0574111d4f6
 file.1=C\:\\Users\\Yan\\Documents\\GitHub\\android-client-socketio-appB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\constraint-layout-solver-1.0.2_6dc110da6e52d7cc858762ba2588c8a95709a816\\classes.dex

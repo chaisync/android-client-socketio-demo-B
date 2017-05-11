@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Yan\\Documents\\GitHub\\android-client-socketio-appB\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png",
-        "source": "C:\\Users\\Yan\\.android\\build-cache\\5d962f6e4c0263ae4409cc1cc543b301447ec0cf\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
         "merged": "C:\\Users\\Yan\\Documents\\GitHub\\android-client-socketio-appB\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png",
         "source": "C:\\Users\\Yan\\.android\\build-cache\\5d962f6e4c0263ae4409cc1cc543b301447ec0cf\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Yan\\Documents\\GitHub\\android-client-socketio-appB\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\Yan\\.android\\build-cache\\5d962f6e4c0263ae4409cc1cc543b301447ec0cf\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "C:\\Users\\Yan\\Documents\\GitHub\\android-client-socketio-appB\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
