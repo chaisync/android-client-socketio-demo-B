@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chaisyncB.android_client_socketioB"
+    android:sharedUserId="chai.uid.shared"
+    android:sharedUserLabel="@string/sync_app_name"
+    android:versionCode="2"
+    android:versionName="1.0B" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.0" />
+
+    <application
+        android:name="com.chaisyncB.android_client_socketioB.ChaisyncApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/chai_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/chai_logo_r"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.chaisyncB.android_client_socketioB.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

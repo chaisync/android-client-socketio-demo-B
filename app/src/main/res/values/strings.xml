@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Chai Sync (B)</string>
+    <string name="sync_app_name">Chai Sync</string>
+
+    <string name="dateText_text">Date and Time: (Date/Time not found)</string>
+    <string name="reminderTime_text">Reminder Time</string>
+    <string name="name_text">Name</string>
+    <string name="deviceId_text">Device ID: (Device ID not found)</string>
+</resources>

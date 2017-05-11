@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ada64b43fd37f8d161fcf3411c00b22bf91958e">
+        <dex dex="C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_12e594269ecba73d5f3c875f2ae1d3bfece1c212\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c9618d3e77875d6a7f441b7436106a02502efa85\classes.dex" />
+    </item>
+
+</items>

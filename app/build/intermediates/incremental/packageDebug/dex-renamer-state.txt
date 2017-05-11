@@ -1,0 +1,7 @@
+#Wed May 10 19:40:03 PDT 2017
+base.0=C\:\\Users\\Yan\\Documents\\GitHub\\android-client-socketio-appB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c9618d3e77875d6a7f441b7436106a02502efa85
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Yan\\Documents\\GitHub\\android-client-socketio-appB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_12e594269ecba73d5f3c875f2ae1d3bfece1c212\\classes.dex
+base.1=C\:\\Users\\Yan\\Documents\\GitHub\\android-client-socketio-appB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_12e594269ecba73d5f3c875f2ae1d3bfece1c212
+file.0=C\:\\Users\\Yan\\Documents\\GitHub\\android-client-socketio-appB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c9618d3e77875d6a7f441b7436106a02502efa85\\classes.dex
