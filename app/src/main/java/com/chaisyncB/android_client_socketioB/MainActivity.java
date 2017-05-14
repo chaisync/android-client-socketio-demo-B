@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity {
                         //firstname = data.getString("firstname");
                         //lastname = data.getString("lastname");
 
-        git                 deviceID = data.getString("deviceID");
+                        deviceID = data.getString("deviceID");
                         user = data.getString("user");
                         reminder = data.getString("reminderTime");
                         timestamp = data.getString("timestamp");
