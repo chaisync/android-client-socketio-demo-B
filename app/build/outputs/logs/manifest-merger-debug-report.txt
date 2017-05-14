@@ -1,95 +1,95 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
-		ADDED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml:3:5-53
-		INJECTED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml:3:5-53
+		INJECTED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml
 	android:sharedUserId
-		ADDED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml:4:5-43
+		ADDED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml:4:5-43
 	android:versionName
-		INJECTED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml:8:5-23:19
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Yan\.android\build-cache\5d962f6e4c0263ae4409cc1cc543b301447ec0cf\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Yan\.android\build-cache\3dfbbe534a7ea2cee105610d1f470d57f4aaaddd\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\Yan\.android\build-cache\8ad76f947ae862083d59900f802d85f2e9b66f5b\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Yan\.android\build-cache\e3072c2bc466e796e00b7f07e82fff41e241a688\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Yan\.android\build-cache\49e36c75977e3b11953601e7847a1b0271a3e3af\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Yan\.android\build-cache\356d7e36c477fb47e77c019a9e34d223fe661870\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Yan\.android\build-cache\466914f50004ceb4564b73e828355606045bb5d3\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Yan\.android\build-cache\907ab78bf0dc38337c1a74ec9c6153bc141e60b6\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Yan\.android\build-cache\22ea9fed44c3df506ce7e00044110dec9f9c8172\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Yan\.android\build-cache\a5e8626d90d657ca3ef133d0fe3f48dc80ba21d0\output\AndroidManifest.xml:9:5-20
+ADDED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml:8:5-23:19
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\vanessa\.android\build-cache\1ba08331fc0dcc38dfb7cf7ebcb32c9a7aed067b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\vanessa\.android\build-cache\d952cced4991a0ffd7016bfbacbb532dc14de515\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\vanessa\.android\build-cache\8d5e2c85fefc98c280a61ddeb531ee6b8b9b24ed\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\vanessa\.android\build-cache\89c66b233fb5f84851937909bff9a189f844ec44\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\vanessa\.android\build-cache\764001c3478c78bf145b0db0eea7aabf3293a877\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\vanessa\.android\build-cache\fb88a3b8c5e632d12e2b9ef02a9a9eb7013ffd3e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\vanessa\.android\build-cache\ec14f4d8a57dae0d3e918944dfa044b68e915431\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\vanessa\.android\build-cache\7cc6d25f1ca3eaad78b136ffb88246560a021919\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\vanessa\.android\build-cache\8094c022b71da12afe564f8e8e7966ed6e666043\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vanessa\.android\build-cache\e3578f948538cb11ddf86bd144938b50ed1b446d\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml:11:9-41
 	android:supportsRtl
-		ADDED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml:14:9-35
 	android:roundIcon
-		ADDED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml:13:9-48
+		ADDED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml:13:9-48
 	android:allowBackup
-		ADDED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml:9:9-35
 	android:icon
-		ADDED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml:10:9-41
 	android:theme
-		ADDED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml:15:9-40
+		ADDED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml:15:9-40
 	android:name
-		ADDED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml:12:9-82
+		ADDED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml:12:9-82
 activity#com.chaisyncB.android_client_socketioB.MainActivity
-ADDED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml:16:9-22:20
+ADDED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml:16:19-85
+		ADDED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml:16:19-85
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml:20:27-74
 uses-sdk
-INJECTED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Yan\.android\build-cache\5d962f6e4c0263ae4409cc1cc543b301447ec0cf\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Yan\.android\build-cache\3dfbbe534a7ea2cee105610d1f470d57f4aaaddd\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\Yan\.android\build-cache\8ad76f947ae862083d59900f802d85f2e9b66f5b\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Yan\.android\build-cache\e3072c2bc466e796e00b7f07e82fff41e241a688\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Yan\.android\build-cache\49e36c75977e3b11953601e7847a1b0271a3e3af\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Yan\.android\build-cache\356d7e36c477fb47e77c019a9e34d223fe661870\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Yan\.android\build-cache\466914f50004ceb4564b73e828355606045bb5d3\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Yan\.android\build-cache\907ab78bf0dc38337c1a74ec9c6153bc141e60b6\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Yan\.android\build-cache\22ea9fed44c3df506ce7e00044110dec9f9c8172\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Yan\.android\build-cache\a5e8626d90d657ca3ef133d0fe3f48dc80ba21d0\output\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\vanessa\.android\build-cache\1ba08331fc0dcc38dfb7cf7ebcb32c9a7aed067b\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\vanessa\.android\build-cache\d952cced4991a0ffd7016bfbacbb532dc14de515\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\vanessa\.android\build-cache\8d5e2c85fefc98c280a61ddeb531ee6b8b9b24ed\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\vanessa\.android\build-cache\89c66b233fb5f84851937909bff9a189f844ec44\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\vanessa\.android\build-cache\764001c3478c78bf145b0db0eea7aabf3293a877\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\vanessa\.android\build-cache\fb88a3b8c5e632d12e2b9ef02a9a9eb7013ffd3e\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\vanessa\.android\build-cache\ec14f4d8a57dae0d3e918944dfa044b68e915431\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\vanessa\.android\build-cache\7cc6d25f1ca3eaad78b136ffb88246560a021919\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\vanessa\.android\build-cache\8094c022b71da12afe564f8e8e7966ed6e666043\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vanessa\.android\build-cache\e3578f948538cb11ddf86bd144938b50ed1b446d\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Yan\.android\build-cache\5d962f6e4c0263ae4409cc1cc543b301447ec0cf\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.3.0] C:\Users\vanessa\.android\build-cache\1ba08331fc0dcc38dfb7cf7ebcb32c9a7aed067b\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vanessa\Dropbox\Projects\WebApps_Socketio\android-client-socketio-demo-B\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Yan\.android\build-cache\5d962f6e4c0263ae4409cc1cc543b301447ec0cf\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Yan\.android\build-cache\3dfbbe534a7ea2cee105610d1f470d57f4aaaddd\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\Yan\.android\build-cache\8ad76f947ae862083d59900f802d85f2e9b66f5b\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Yan\.android\build-cache\e3072c2bc466e796e00b7f07e82fff41e241a688\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Yan\.android\build-cache\49e36c75977e3b11953601e7847a1b0271a3e3af\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Yan\.android\build-cache\356d7e36c477fb47e77c019a9e34d223fe661870\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Yan\.android\build-cache\466914f50004ceb4564b73e828355606045bb5d3\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Yan\.android\build-cache\907ab78bf0dc38337c1a74ec9c6153bc141e60b6\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Yan\.android\build-cache\22ea9fed44c3df506ce7e00044110dec9f9c8172\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:appcompat-v7:25.3.0] C:\Users\vanessa\.android\build-cache\1ba08331fc0dcc38dfb7cf7ebcb32c9a7aed067b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\vanessa\.android\build-cache\d952cced4991a0ffd7016bfbacbb532dc14de515\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\vanessa\.android\build-cache\8d5e2c85fefc98c280a61ddeb531ee6b8b9b24ed\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\vanessa\.android\build-cache\89c66b233fb5f84851937909bff9a189f844ec44\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\vanessa\.android\build-cache\764001c3478c78bf145b0db0eea7aabf3293a877\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\vanessa\.android\build-cache\fb88a3b8c5e632d12e2b9ef02a9a9eb7013ffd3e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\vanessa\.android\build-cache\ec14f4d8a57dae0d3e918944dfa044b68e915431\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\vanessa\.android\build-cache\7cc6d25f1ca3eaad78b136ffb88246560a021919\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\vanessa\.android\build-cache\8094c022b71da12afe564f8e8e7966ed6e666043\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Yan\.android\build-cache\5d962f6e4c0263ae4409cc1cc543b301447ec0cf\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:appcompat-v7:25.3.0] C:\Users\vanessa\.android\build-cache\1ba08331fc0dcc38dfb7cf7ebcb32c9a7aed067b\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Yan\.android\build-cache\5d962f6e4c0263ae4409cc1cc543b301447ec0cf\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:appcompat-v7:25.3.0] C:\Users\vanessa\.android\build-cache\1ba08331fc0dcc38dfb7cf7ebcb32c9a7aed067b\output\AndroidManifest.xml:26:9-47

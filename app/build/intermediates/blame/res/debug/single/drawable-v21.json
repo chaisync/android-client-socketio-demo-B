@@ -12,6 +12,22 @@
         "source": "C:\\Users\\Yan\\.android\\build-cache\\5d962f6e4c0263ae4409cc1cc543b301447ec0cf\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
+        "merged": "C:\\Users\\vanessa\\Dropbox\\Projects\\WebApps_Socketio\\android-client-socketio-demo-B\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\vanessa\\.android\\build-cache\\1ba08331fc0dcc38dfb7cf7ebcb32c9a7aed067b\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\vanessa\\Dropbox\\Projects\\WebApps_Socketio\\android-client-socketio-demo-B\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\vanessa\\.android\\build-cache\\1ba08331fc0dcc38dfb7cf7ebcb32c9a7aed067b\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\vanessa\\Dropbox\\Projects\\WebApps_Socketio\\android-client-socketio-demo-B\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\vanessa\\.android\\build-cache\\1ba08331fc0dcc38dfb7cf7ebcb32c9a7aed067b\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\vanessa\\Dropbox\\Projects\\WebApps_Socketio\\android-client-socketio-demo-B\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\vanessa\\.android\\build-cache\\1ba08331fc0dcc38dfb7cf7ebcb32c9a7aed067b\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Yan\\Documents\\GitHub\\android-client-socketio-appB\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
         "source": "C:\\Users\\Yan\\.android\\build-cache\\5d962f6e4c0263ae4409cc1cc543b301447ec0cf\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     }

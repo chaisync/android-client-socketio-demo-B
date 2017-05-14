@@ -143,20 +143,20 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
                     JSONObject data = (JSONObject) args[0];
 
-                    String firstname;
-                    String lastname;
+                    //String firstname;
+                    //String lastname;
                     String deviceID;
                     String user;
                     String reminder;
                     String timestamp;
 
                     try {
-                        firstname = data.getString("firstname");
-                        lastname = data.getString("lastname");
+                        //firstname = data.getString("firstname");
+                        //lastname = data.getString("lastname");
 
-                        deviceID = data.getString("deviceID");
+        git                 deviceID = data.getString("deviceID");
                         user = data.getString("user");
-                        reminder = data.getString("reminder");
+                        reminder = data.getString("reminderTime");
                         timestamp = data.getString("timestamp");
 
                     } catch (JSONException e) {
@@ -168,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
                     saveDeviceIdToLocalDb(android_id);
                     saveUserToLocalDb(user);
                     saveReminderToLocalDb(reminder);
-                    saveTimeToLocalDb(timeStamp);
+                    saveTimeToLocalDb(timestamp);
                 }
             });
         }
