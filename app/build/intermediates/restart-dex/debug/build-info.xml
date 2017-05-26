@@ -1,42 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
-    api-level="23"
+    abi="x86"
+    api-level="24"
     build-mode="COLD"
     density="xxhdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1494479642016"
+    timestamp="1495838854042"
     token="574667970970872686"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="185" />
+        duration="262" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="90" />
+        duration="71" />
     <task
         name="verifier"
-        duration="19" />
+        duration="16" />
 
     <artifact
         location="C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
-    <artifact
-        location="C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\build\outputs\apk\app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1494479478248"
+        timestamp="1495837897583"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
@@ -65,6 +59,9 @@
             location="C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
@@ -73,14 +70,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1494479642016"
+        timestamp="1495838854042"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\Yan\Documents\GitHub\android-client-socketio-appB\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

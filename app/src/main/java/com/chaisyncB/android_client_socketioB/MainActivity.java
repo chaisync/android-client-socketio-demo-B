@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import org.json.JSONException;
@@ -22,6 +23,8 @@ import android.provider.Settings.Secure;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import android.widget.Toast;
+import android.graphics.Color;
+import 	java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
     private EditText reminderTime;
     private String android_id;
     private String timeStamp;
-    //SharedPreferences sharedPref = this.getSharedPreferences("com.Chaisync.sharedPref", Context.MODE_PRIVATE);
     SharedPreferences sharedPref;
     Context sync_context;
 
@@ -48,15 +50,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        sharedPref = this.getSharedPreferences("com.Chaisync.sharedPref", Context.MODE_PRIVATE);
        //input fields and info set up and populate
-        try {
+       /*try {
             sync_context = createPackageContext("com.chaisync.android_client_socketio", 0);
-            sharedPref = sync_context.getSharedPreferences("com.Chaisync.sharedPref", Context.CONTEXT_IGNORE_SECURITY | Context.MODE_MULTI_PROCESS);
+            sharedPref = sync_context.getSharedPreferences("com.Chaisync.sharedPref", Context.MODE_PRIVATE);
         } catch (PackageManager.NameNotFoundException e) {
             Log.d("CSdebug", "NameNotFoundException");
             Toast.makeText(this, "database sync error!!", Toast.LENGTH_LONG).show();
-        }
+        }*/
 
         deviceID_display = (TextView) findViewById(R.id.deviceId_textview);
         dateTime_display = (TextView) findViewById(R.id.dateText_textview);
@@ -93,6 +95,10 @@ public class MainActivity extends AppCompatActivity {
                   throw new RuntimeException();
               }
 
+              //background color changer
+              LinearLayout ll = (LinearLayout) findViewById(R.id.main_layout);
+              ll.setBackgroundColor(Color.WHITE);
+
               // Loopback demo
               //textViewFromServer.setText(editTextFromClient.getText());
           }
@@ -103,20 +109,23 @@ public class MainActivity extends AppCompatActivity {
         refresher.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                try {
+               /* try {
                     sync_context = createPackageContext("com.chaisync.android_client_socketio", 0);
-                    sharedPref = sync_context.getSharedPreferences("com.Chaisync.sharedPref", Context.CONTEXT_IGNORE_SECURITY | Context.MODE_MULTI_PROCESS);
+                    sharedPref = sync_context.getSharedPreferences("com.Chaisync.sharedPref", Context.MODE_PRIVATE);
                 } catch (PackageManager.NameNotFoundException e) {
                     Log.d("CSdebug", "NameNotFoundException");
-                    //Toast.makeText(this, "database sync error!!", Toast.LENGTH_LONG).show();
-                }
-
+                }*/
+                //sharedPref = sync_context.getSharedPreferences("com.Chaisync.sharedPref", Context.MODE_PRIVATE);
                 String my_deviceID = sharedPref.getString("deviceID", "");
                 String my_user = sharedPref.getString("user", "");
                 String my_reminder = sharedPref.getString("reminder", "");
                 String my_timestamp = sharedPref.getString("timestamp", "");
                 database_display.setText("Local Database: \n" + my_deviceID + " "
                         + my_user + " " + my_reminder + " " + my_timestamp);
+
+                //background color changer
+                LinearLayout ll = (LinearLayout) findViewById(R.id.main_layout);
+                ll.setBackgroundColor(Color.WHITE);
             }
         });
 
@@ -143,17 +152,12 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
                     JSONObject data = (JSONObject) args[0];
 
-                    //String firstname;
-                    //String lastname;
                     String deviceID;
                     String user;
                     String reminder;
                     String timestamp;
 
                     try {
-                        //firstname = data.getString("firstname");
-                        //lastname = data.getString("lastname");
-
                         deviceID = data.getString("deviceID");
                         user = data.getString("user");
                         reminder = data.getString("reminderTime");
@@ -164,11 +168,16 @@ public class MainActivity extends AppCompatActivity {
                         return;
                     }
                     textViewFromServer.setText(deviceID+" "+user+" "+reminder+" "+timestamp);
-                    //saveToLocalDb(firstname+","+lastname);
                     saveDeviceIdToLocalDb(android_id);
                     saveUserToLocalDb(user);
                     saveReminderToLocalDb(reminder);
                     saveTimeToLocalDb(timestamp);
+
+                    //background color changer
+                    if ( new Random().nextBoolean() ) {
+                        LinearLayout ll = (LinearLayout) findViewById(R.id.main_layout);
+                        ll.setBackgroundColor(Color.YELLOW);
+                    }
                 }
             });
         }
@@ -185,19 +194,6 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "readFromLocalDb() " + readTotal, Toast.LENGTH_LONG).show();
         //deviceID_display.setText("Database stuff: " + readTotal);
     }
-
-    /*
-    private void saveToLocalDb(String data) {
-        //SharedPreferences sharedPref = this.getSharedPreferences("com.Chaisync.sharedPref", Context.MODE_PRIVATE);
-        //if (sharedPref.getString("my_data", "").length() == 0) {
-        SharedPreferences.Editor editor = sharedPref.edit();
-        editor.putString("my_data", data);
-        editor.commit();
-        //}
-        Log.d("CSdebug","saveToLocalDb() " + data.toString());
-        Toast.makeText(this, "saveToLocalDb() " + data, Toast.LENGTH_LONG).show();
-    }
-    */
 
     private void saveDeviceIdToLocalDb(String deviceID) {
         SharedPreferences.Editor editor = sharedPref.edit();
@@ -246,7 +242,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "attemptLogin() " + data, Toast.LENGTH_LONG).show();
         // Attempt to send the message
         sock.emit("send message", data);
-        //saveToLocalDb(android_id+","+username+","+reminderTimeText+","+timeStamp);
+
         saveDeviceIdToLocalDb(android_id);
         saveUserToLocalDb(username);
         saveReminderToLocalDb(reminderTimeText);
